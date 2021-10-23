@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang Ghilman</title>
+
+</head>
+
+<body>
+
+    <!-- menu -->
+    <ul style=" text-align: center; border: 1px solid black; padding: 10px;">
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Beranda</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Shopee</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Tokopedia</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Whatsapp</li>
+        <li style="display: inline-block; border-right: 1px solid black; padding: 0 40px;">Logout</li>
+    </ul>
+
+    <!-- Bingkai -->
+    <div style="border: 1px solid white; padding: 38px;">
+    </div>
+    <!-- layout kiri -->
+    <div style="float: left; width: 28%; border: 1px solid white;">
+        <img src="al quran.jpg" alt="GambarBarang" style="margin-left: 120px;" width="180px"
+            height="180px">
+        <input type="button" style="margin-left: 120px;" value="Upload Picture">
+    </div>
+
+    <!-- layout kanan -->
+    <div style="float: left; width: 69%; border: 1px solid white">
+        <form method="post">
+            <table>
+                <tr>
+                    <td>Nama Barang : </td>
+                    <td style="border: 1px solid rgb(150, 146, 146);"> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td valign="top">Deskripsi : </td>
+                    <td style="border: 1px solid white; width: 80%;">
+                        <textarea style="resize: none; height:70px; width: 170px;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nomor Rekening : </td>
+                    <td style="border: 1px solid white;"> <input type="number"> </td>
+                </tr>
+                <tr>
+                    <td>Bank : </td>
+                    <td style="border: 1px solid white;">
+                        <select>
+                            <option>Jenius</option>
+                            <option>Digibank</option>
+                            <option> BCA </option>
+                            <option> BNI </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pemegang Akun : </td>
+                    <td style="border: 1px solid white;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td valign="top">Transaksi : </td>
+                    <td style="border: 1px solid white;">
+                        <div>
+                            <input type="number">
+                        </div>
+                        <div>
+                            *Jika pemesanan lebih dari 1, hubungi cara di bawah
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            Kirim Pesan
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            Kirim ke Email
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Kirim Pesan :
+                    </td>
+                    <td style="border: 1px solid white;">
+                        <input type="number" placeholder="Number Telphone">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Kirim ke Email : </td>
+                    <td style="border: 1px solid white;">
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="border: 1px solid white;">
+                        <input type="button" value="Pesan" style="background: Blue; ">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
